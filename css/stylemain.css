@@ -1,0 +1,76 @@
+/*
+Official GAI colors (as used in branding in the past):
+Blue: #2EC1DE
+Green: #A7CF53
+Purple: #874D9D
+Orange: #E2AC2F
+Pink: #D04397
+*/
+
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+
+.blue {
+	background-color: #2EC1DE;
+}
+
+.green {
+	background-color: #A7CF53;
+}
+
+.purple {
+	background-color: #874D9D;
+}
+
+.orange {
+	background-color: #E2AC2F;
+}
+
+.pink {
+	background-color: #D04397;
+}
+
+.black {
+	background-color: #111;
+}
+
+.white {
+	background-color: #fff;
+}
+
+.black-text {
+	color: #111;
+}
+
+.blue-text {
+	color: #2EC1DE;
+}
+
+.green-text {
+	color: #A7CF53;
+}
+
+.purple-text {
+	color: #874D9D;
+}
+
+.orange-text {
+	color: #E2AC2F;
+}
+
+.pink-text {
+	color: #D04397;
+}
+
+.white-text {
+	color: #fff;
+}
