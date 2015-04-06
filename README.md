@@ -35,6 +35,7 @@ For the time being, we are using html, CSS, and javascript **only** in order to 
 
 
 Git tips
+===========
 
 Before starting to work on the repo after awhile
 ```
