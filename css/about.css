@@ -1,10 +1,8 @@
 
-/* ABOUT PAGE BODY */
+/* ABOUT PAGE */
 
 .about_body {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
+    margin: 10% auto 5%;
     text-align: center;
 }
 
@@ -12,15 +10,26 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
 }
 
+/* STATS BOX */
+
 #stats {
+    margin: 0 auto 10%;
+    border: solid 1px #eeeeee;
+    width: 500px;
+}
+
+#stats ul li {
+    display: inline-block;
+    margin: 0 5% 0;
     text-align: center;
 }
 
-rect {
-    stroke-width: 5px;
-    stroke: #eeeeee;
-    fill: #ffffff;
+#stats h1 {
+    color: #1ac6e2;
+}
+
+#stats p {
+    color: #bbbbbb;
 }
