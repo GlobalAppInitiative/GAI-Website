@@ -20,6 +20,7 @@ body {
 }
 
 
+/* not the best way of doing this... create our own class for container!! */
 @media (min-width: 1200px) {
     .container-fluid{
         max-width: 970px;
@@ -38,6 +39,29 @@ body {
     .navbar{
     	background-color:#28292E;
     }
+}
+
+
+.footer-lists ul{
+	float: left;
+	width: 14.28%;
+	padding:5px;
+	list-style-type: none;
+}
+.footer-lists ul li{
+	/*text-decoration: none;*/
+}
+.footer-lists ul li{
+	text-decoration: none;
+	color: #B3B3B3;
+}
+.footer-lists ul li a{
+	text-decoration: none;
+	color: #B3B3B3;
+}
+.footer-lists ul li a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
 }
 
 
@@ -98,3 +122,4 @@ body {
 .white-text {
 	color: #fff;
 }
+
