@@ -16,7 +16,31 @@ html {
 body {
 	width: 100%;
 	height: 100%;
+	padding-top: 70px;
 }
+
+
+@media (min-width: 1200px) {
+    .container-fluid{
+        max-width: 970px;
+    }
+    .bottom{
+    	background-color:#28292E;
+    }
+    .container{
+        max-width: 970px;
+        margin:auto;
+
+    }
+    .navbar-nav{
+        margin:auto;
+    }
+    .navbar{
+    	background-color:#28292E;
+    }
+}
+
+
 
 
 .blue {
