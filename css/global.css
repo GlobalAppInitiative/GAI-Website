@@ -19,14 +19,25 @@ body {
 	padding-top: 70px;
 }
 
+.logotopleft img {
+	margin:2px 0 0 2px;
+	position:absolute;
+	height:auto;
+	width:auto;
+	max-width:45px;
+	max-height:45px;
+}
+.bottom{
+	background-color:#28292E;
+}
+.navbar{
+	background-color:#28292E;
+}
 
 /* not the best way of doing this... create our own class for container!! */
 @media (min-width: 1200px) {
     .container-fluid{
         max-width: 970px;
-    }
-    .bottom{
-    	background-color:#28292E;
     }
     .container{
         max-width: 970px;
@@ -35,9 +46,6 @@ body {
     }
     .navbar-nav{
         margin:auto;
-    }
-    .navbar{
-    	background-color:#28292E;
     }
 }
 
