@@ -1,7 +1,7 @@
 GAI-Website
 ===========
 
-This is the repository for the public GAI website. It will ultiamtely be live at [http://globalappinitiative.org](http://globalappinitiative.org), for now it will be hosted as a subdomain of the .com version (which currently just redirects to the .org): (coming soon). [View the mockup here](https://projects.invisionapp.com/d/main#/console/1380638/31971747/preview) (ask for login credentials)
+This is the repository for the public GAI website. It will ultiamtely be live at [http://globalappinitiative.org](http://globalappinitiative.org), for now it will be hosted as a subdomain of the .com version (which currently just redirects to the .org): [Dev version of website](http://bu.teamglobalapps.org/). [View the mockup here](https://projects.invisionapp.com/d/main#/console/1380638/31971747/preview) (ask for login credentials)
 
 Tasks & Milestones
 ===========
