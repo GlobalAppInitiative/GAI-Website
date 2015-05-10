@@ -45,6 +45,7 @@ body {
 	max-height:45px;
 }
 
+/* Navigation bar CSS for other pages.
 .navbar{
 	background-color:#28292E;
 }
@@ -89,6 +90,7 @@ body {
         margin:auto;
     }
 }
+*/
 
 .linky:visited{
 	text-decoration: none;
