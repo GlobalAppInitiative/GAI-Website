@@ -25,9 +25,11 @@ body {
 }
 */
 
+/*
 .container{
 	width: 100%;
 }
+
 .footer{
 	width:100%;
 	background-color:#28292E;
@@ -36,7 +38,7 @@ body {
 .extend{
 
 }
-
+*/
 
 /* Navigation bar CSS for other pages.
 .navbar{
@@ -102,7 +104,7 @@ body {
 	color: #13afc6;
 }
 
-
+/*
 .footer-lists ul{
 	float: left;
 	width: 16.6%;
@@ -111,7 +113,7 @@ body {
 }
 .footer-lists ul li{
 	/*text-decoration: none;*/
-}
+/*}
 .footer-lists ul li a{
 	text-decoration: none;
 	color: #848484;
@@ -133,9 +135,7 @@ body {
 .footer-lists ul a img:hover{
 	opacity:30%;
 }
-
-
-
+*/
 
 .blue {
 	background-color: #2EC1DE;

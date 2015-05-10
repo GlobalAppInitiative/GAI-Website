@@ -8,6 +8,7 @@
     max-height:60px;
 }
 
+/* Position is absolute for the navbar static top */
 .navbar-fixed-top {
     min-height: 65px;
     position: absolute;
@@ -19,7 +20,7 @@
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,cursive;
     color: #2EC1DE;
 }
 
@@ -52,8 +53,8 @@
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
     letter-spacing: 1px;
     color: #FFFFFF;
 }
@@ -122,7 +123,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/pr-pictures/wristbands.jpg);
+    background-image: url(../img/pr-pictures/gai-team.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -138,17 +139,16 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: -10px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -161,18 +161,72 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
-        font-style: italic;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 35px;
         line-height: 40px;
+        font-weight: 300;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-top: -80px;
+        margin-bottom: -10px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 15px;
         font-weight: 700;
         line-height: 75px;
     }
+}
+
+/* Good looking button */
+.btn-xl {
+    padding: 10px 40px;
+    border-color: #2EC1DE;
+    border-radius: 3px;
+    /* text-transform: uppercase; */
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #2EC1DE;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: black;
+    color: #fff;
+    background-color: black;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: black;
+    background-color: black;
+}
+
+.btn-xl .badge {
+    color: black;
+    background-color: black;
 }
