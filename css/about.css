@@ -7,7 +7,7 @@
 }
 
 .about_body_text {
-    width: 50%;
+    width: 450px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -32,4 +32,9 @@
 
 #stats p {
     color: #bbbbbb;
+}
+
+.team {
+    margin-right: auto;
+    margin-left: auto;
 }
