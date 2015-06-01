@@ -35,6 +35,13 @@
 }
 
 .team {
+    margin: auto;
+}
+
+/* E-BOARD IMAGE GRID */
+
+.e-board {
     margin-right: auto;
     margin-left: auto;
 }
+
