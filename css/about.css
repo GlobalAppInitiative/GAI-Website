@@ -14,19 +14,22 @@
 
 /* STATS BOX */
 
+.stats-container {
+    margin-bottom: 40px;
+}
+
 #stats {
-    margin: 0 auto 10%;
-    border: solid 1px #eeeeee;
-    width: 500px;
+
 }
 
 #stats ul li {
     display: inline-block;
-    margin: 0 5% 0;
+    padding: 0 25px 0;
     text-align: center;
 }
 
 #stats h1 {
+    font-size: 5em;
     color: #1ac6e2;
 }
 
