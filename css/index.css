@@ -1,129 +1,14 @@
-/* Navigation bar CSS for the home page exclusively*/
-.brand-logo img {
-    margin:2px 0 0 8px;
-    position:absolute;
-    height:auto;
-    width:auto;
-    max-width:60px;
-    max-height:60px;
-}
-
-/* Position is absolute for the navbar static top */
-.navbar-fixed-top {
-    min-height: 65px;
-    position: absolute;
-}
-
-.navbar-default{
-    border-color: transparent;
-    background-color: #222;
-}
-
-.navbar-default .navbar-brand {
-    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #2EC1DE;
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-    color: #2EC1DE;
-}
-
-.navbar-default .navbar-collapse {
-    border-color: rgba(255,255,255,.02);
-}
-
-.navbar-default .navbar-toggle {
-    margin-top: 15px;
-    border-color: #2EC1DE;
-    background-color: #2EC1DE;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    border-color: #fff;
-    background-color: #111;
-}
-
-.navbar-default .nav li a {
-    text-transform: uppercase;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-}
-
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
-    outline: 0;
-    color: #2EC1DE;
-}
-
-.navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    color: #2EC1DE;
-    background-color: #2EC1DE;
-}
-
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #2EC1DE;
     background-color: #2EC1DE;
 }
 
-@media(min-width:768px) {
-    .navbar-default {
-        padding: 25px 0;
-        border: 0;
-        background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .container{
-        max-width: 970px;
-        margin:auto;
-    }
-
-    .navbar-nav > li > a {
-        line-height: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .navbar-default .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
-    }
-
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
-
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/pr-pictures/gai-team.jpg);
+    background-image: url(/img/pr-pictures/gai-team.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
