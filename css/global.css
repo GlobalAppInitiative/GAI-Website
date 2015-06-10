@@ -116,9 +116,9 @@ body {width: 100%;height: 100%;padding: 50px 0 0 0;margin: 0;
 	width:100%;
 }
 .subscribe-bar{
-	width:400px;
-	line-height: 45px;
-	height:45px;
+	width:650px;
+	line-height: 12px;
+	height:70px;
 	color:#000000;
 	margin: 0 auto;
 }
@@ -149,19 +149,36 @@ body {width: 100%;height: 100%;padding: 50px 0 0 0;margin: 0;
 .mobile-social{
 	display:none;
 }
+
+#mc_embed_signup{
+	display: inline-block;
+	/*background-color: #123456;*/
+	width:100%;
+	/*margin: 0 auto;*/
+}
+#mc_embed_signup input{
+	display: inline-block;
+	width:24%;
+	margin: 0 0;
+}
+#mc_embed_signup label{
+	text-align:center;
+	width:100%;
+}
 @media (max-width: 600px) {
-	.subscribe-bar{
+	.subscribe-bar{	
 		width:100%;
+		height:170px;
 	}
 	.subscribe-bar div{
 		width:100%;
-		padding: 0 2px;
+		padding: 0 0px;
 	}
 	.subscribe-bar div form label{
-		display:none;
+		/*display:none;*/
 	}
 	.subscribe-bar div form div{
-		width:70%;
+		width:95%;
 	}
 	.subscribe-bar div form button{
 		width:28%;
@@ -182,4 +199,30 @@ body {width: 100%;height: 100%;padding: 50px 0 0 0;margin: 0;
 		width: 14%;
 		background-color:#FFFFFF;
 	}
+	#mc_embed_signup input{
+		width:100%;
+	}
 }
+
+
+/*
+#mc_embed_signup input.button {
+float: left !important;
+width: 35% !important;
+clear: none !important;
+background-color: #4ccdde !important;
+color: #ffffff !important;
+border-color: #2aabbc !important;
+}
+
+#mc_embed_signup input.email {
+width: 45% !important;
+float: left !important;
+clear: none !important;
+}
+
+input#mce-EMAIL, #mc-embedded-subscribe {
+    float: left !important;
+    width: 50% !important;
+    clear: none !important;
+}*/
