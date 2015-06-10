@@ -40,11 +40,11 @@ body {width: 100%;height: 100%;padding: 50px 0 0 0;margin: 0;
 .navbar .navbar-nav li a:visited{color:#FFFFFF;}
 .navbar .navbar-nav li a:hover{
 	color:#2EC1DE;
-	-webkit-transition: 0.05s;
-       -moz-transition: 0.05s;
-        -ms-transition: 0.05s;
-         -o-transition: 0.05s;
-            transition: 0.05s;
+	-webkit-transition: .1s;
+       -moz-transition: .1s;
+        -ms-transition: .1s;
+         -o-transition: .1s;
+            transition: .1s;
 }
 .navbar .navbar-nav li a:active{color:#3fe5ff;}
 .navbar .navbar-collapse {text-align:center;}
