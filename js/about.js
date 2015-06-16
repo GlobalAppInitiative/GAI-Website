@@ -6,7 +6,8 @@ $(document).ready(function(){
     $('.center').slick({
         centerMode: true,
         centerPadding: '60px',
-        slidesToShow: 3,
+        slidesToShow: 1,
+        dots: true,
         responsive: [
             {
                 breakpoint: 768,
