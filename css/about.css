@@ -29,13 +29,12 @@
 }
 
 #stats {
-
+    text-align: center;
 }
 
 #stats ul li {
     display: inline-block;
     padding: 0 25px 0;
-    text-align: center;
 }
 
 #stats h1 {
