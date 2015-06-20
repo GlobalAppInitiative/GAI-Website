@@ -3,30 +3,25 @@
  */
 
 $(document).ready(function(){
-    $('.center').slick({
-        centerMode: true,
-        centerPadding: '100px',
-        slidesToShow: 1,
-        dots: true,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 3
-                }
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        dots:true,
+        navigation:true,
+        navigationText: [
+            "<i class='fa fa-chevron-circle-left fa-3x'></i>",
+            "<i class='fa fa-chevron-circle-right fa-3x'></i>"
+        ],
+        responsive:{
+            0:{
+                items:2
             },
-            {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 1
-                }
+            600:{
+                items:3
+            },
+            1000:{
+                items:3
             }
-        ]
+        }
     });
 });

@@ -65,8 +65,29 @@
     margin-bottom: 30px;
 }
 
-.history-event {
-    width: 150px !important;
+.history-date {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.history-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/** OWL CAROUSEL CUSTOM STYLING **/
+
+.owl-theme .owl-controls .owl-buttons div{
+    color: #1AC6E2;
+    background: none;
+    opacity: 0.7;
+}
+
+.owl-item {
+    width: 200px !important;
+    height: 190px;
+    margin-right: 10px;
+    margin-left: 10px;
     border: 2px solid #EEEEEE;
-    position: relative;
 }
