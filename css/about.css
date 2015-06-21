@@ -37,20 +37,21 @@
     padding: 0 25px 0;
 }
 
-#stats h1 {
+.timer {
     font-size: 5em;
-    color: #1ac6e2;
+    color: #1AC6E2;
 }
 
 #stats p {
-    color: #bbbbbb;
+    color: #999999;
 }
+
+/* E-BOARD IMAGE GRID */
 
 .team {
     margin: auto;
 }
 
-/* E-BOARD IMAGE GRID */
 .e-board {
     margin: 0 auto;
 }

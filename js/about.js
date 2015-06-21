@@ -3,6 +3,7 @@
  */
 
 $(document).ready(function(){
+    $('.timer').countTo();
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
