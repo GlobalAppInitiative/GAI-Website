@@ -13,16 +13,17 @@ $(document).ready(function(){
             "<i class='fa fa-chevron-circle-left fa-3x'></i>",
             "<i class='fa fa-chevron-circle-right fa-3x'></i>"
         ],
-        responsive:{
-            0:{
-                items:2
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:3
-            }
-        }
+        items:3
+        //responsive:{
+        //    0:{
+        //        items:2
+        //    },
+        //    600:{
+        //        items:3
+        //    },
+        //    1000:{
+        //        items:3
+        //    }
+        //}
     });
 });

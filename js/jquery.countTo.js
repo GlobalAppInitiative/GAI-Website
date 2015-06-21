@@ -1,3 +1,8 @@
+/*
+A jquery plugin for number counter on about page.
+Taken from https://github.com/mhuggins/jquery-countTo under MIT License.
+ */
+
 (function ($) {
   var CountTo = function (element, options) {
     this.$element = $(element);
