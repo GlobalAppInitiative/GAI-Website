@@ -49,16 +49,16 @@ header .intro-text .intro-heading {
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 35px;
         line-height: 40px;
-        font-weight: 300;
+        font-weight: 100;
     }
 
     header .intro-text .intro-heading {
-        margin-top: -80px;
+        margin-top: -100px;
         margin-bottom: -10px;
         text-transform: uppercase;
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 15px;
-        font-weight: 700;
+        font-weight: 400;
         line-height: 75px;
     }
 }
@@ -70,8 +70,8 @@ header .intro-text .intro-heading {
     border-radius: 3px;
     /* text-transform: uppercase; */
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 400;
     color: #fff;
     background-color: #2EC1DE;
 }
