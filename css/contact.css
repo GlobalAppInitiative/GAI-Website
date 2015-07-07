@@ -1,0 +1,43 @@
+/***** CONTACT PAGE *****/
+
+.contact-container {
+    padding: 0;
+}
+
+
+/** CONTACT NAVIGATION BAR **/
+
+.tab-filter-container {
+    width: 100%;
+    background: #F2F2F2;
+    height: 40px;
+}
+
+.tab-filters {
+    list-style-type: none;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.filter {
+    display: inline-block;
+    height: 40px;
+    padding-top: 5px;
+}
+
+.filter.active {
+    border-bottom: 3px solid #1AC6E2;
+}
+
+.filter-link {
+    font-size: 20px;
+    color: #9A9A9A;
+    margin: 0 40px;
+}
+
+.filter-link:hover,
+.filter-link:focus,
+.filter-link.active {
+    text-decoration: none;
+    color: #1AC6E2;
+}
