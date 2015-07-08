@@ -2,8 +2,8 @@
 
 .contact-container {
     padding: 0;
+    background-color: #FFFFFF;
 }
-
 
 /** CONTACT NAVIGATION BAR **/
 
@@ -26,7 +26,7 @@
 }
 
 .filter.active {
-    border-bottom: 3px solid #1AC6E2;
+    border-bottom: 4px solid #1AC6E2;
 }
 
 .filter-link {
@@ -40,4 +40,10 @@
 .filter-link.active {
     text-decoration: none;
     color: #1AC6E2;
+}
+
+/** STUDENT CONTACT **/
+
+.contact-body h1 {
+    text-align: center;
 }
