@@ -1,5 +1,9 @@
 /***** CONTACT PAGE *****/
 
+button:focus {
+    outline: 0 !important;
+}
+
 .contact-container {
     padding: 0;
     background-color: #FFFFFF;
@@ -42,8 +46,34 @@
     color: #1AC6E2;
 }
 
-/** STUDENT CONTACT **/
+/** PRIMARY CONTACT FORM **/
 
 .contact-body h1 {
+    text-align: center;
+}
+
+.form-row {
+    margin-top: 40px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-btn {
+    background-color: #1AC6E2;
+    color: #FFFFFF;
+    border: none;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+    background-color: #17acc4;
+    color: #FFFFFF;
+}
+
+/** GENERAL CONTACT FORM **/
+
+.general-contact h3 {
     text-align: center;
 }
