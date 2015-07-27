@@ -48,8 +48,19 @@ button:focus {
 
 /** PRIMARY CONTACT FORM **/
 
+.contact-background {
+    background-image: url("../img/backgrounds/wristbands.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .contact-body h1 {
     text-align: center;
+    color: #FFFFFF;
+}
+
+.contact-label {
+    color: #FFFFFF;
 }
 
 .form-row {
@@ -58,6 +69,15 @@ button:focus {
 
 .form-control {
     margin-bottom: 20px;
+}
+
+.contact-input {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #1AC6E2;
 }
 
 .form-btn {
@@ -72,8 +92,18 @@ button:focus {
     color: #FFFFFF;
 }
 
+.contact-paragraph {
+    color: #FFFFFF;
+}
+
 /** GENERAL CONTACT FORM **/
+
+.general-contact {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
 
 .general-contact h3 {
     text-align: center;
+    margin-bottom: 30px;
 }
