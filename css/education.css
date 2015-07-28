@@ -9,6 +9,8 @@ NAVIGATION - VIDEO SUB-CATEGORIES
 }
 
 .videoNav li {
+    border: none;
+    background-color: transparent;
     display: inline-block;
     padding: 0 10px 0 10px;
     text-align: center;
