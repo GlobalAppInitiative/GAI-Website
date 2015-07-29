@@ -8,7 +8,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(/img/backgrounds/gai-team.jpg);
+    background-image: url("../img/backgrounds/gai-team.jpg");
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;

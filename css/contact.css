@@ -52,6 +52,8 @@ button:focus {
     background-image: url("../img/backgrounds/wristbands.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .contact-body h1 {
@@ -88,7 +90,7 @@ button:focus {
 
 .form-btn:hover,
 .form-btn:focus {
-    background-color: #17acc4;
+    background-color: #2ab5d0;
     color: #FFFFFF;
 }
 
