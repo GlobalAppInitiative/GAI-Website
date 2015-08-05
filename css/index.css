@@ -1,3 +1,5 @@
+/*** HOME PAGE ***/
+
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #2EC1DE;
@@ -115,3 +117,4 @@ fieldset[disabled] .btn-xl.active {
     color: black;
     background-color: black;
 }
+

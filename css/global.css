@@ -21,6 +21,13 @@ body {width: 100%;height: 100%;padding: 50px 0 0 0;margin: 0;
 .pink-text {color: #D04397;}
 .white-text {color: #fff;}
 
+/*** NAVIGATION ***/
+
+.logotopleft {
+    position: absolute;
+    margin-left: 40px;
+}
+
 .navbar{
 	background-color:#28292E;
 }
@@ -58,6 +65,9 @@ body {width: 100%;height: 100%;padding: 50px 0 0 0;margin: 0;
 .linky:hover{text-decoration:none;color: #3fe5ff;}
 .linky:link{text-decoration:none;color:#2EC1DE;}
 .linky:active{text-decoration:none;color:#13afc6;}
+
+/*** FOOTER ***/
+
 .footer{
 	width:100%;
 	background-color:#28292E;
