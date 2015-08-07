@@ -118,3 +118,22 @@ fieldset[disabled] .btn-xl.active {
     background-color: black;
 }
 
+/* Bootstrap Carousel */
+
+/* remove background gradients */
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-caption {
+    text-shadow: none;
+}
+
+.carousel-caption h3 {
+    color: #28292E;
+}
+
+.carousel-caption p {
+    color: #28292E;
+}
