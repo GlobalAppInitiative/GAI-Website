@@ -118,6 +118,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: black;
 }
 
+.body-container {
+    padding: 0;
+}
+
 /* Bootstrap Carousel */
 
 /* remove background gradients */
@@ -166,4 +170,17 @@ fieldset[disabled] .btn-xl.active {
 .carousel-caption a {
     color: #2EC1DE;
     text-decoration: none;
+}
+
+/* Design Develop Debug */
+
+.d3-container {
+    text-align: center;
+    background-image: url('../img/backgrounds/d3.png');
+    color: #FFFFFF;
+    padding: 100px 15px;
+}
+
+.d3-container h3 {
+    margin-bottom: 50px;
 }
