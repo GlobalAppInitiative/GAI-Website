@@ -198,3 +198,43 @@ fieldset[disabled] .btn-xl.active {
 
 /* Home Footer */
 
+.home-footer {
+    background-color: #F2F2F2;
+    border-top: 1px solid #CCCCCC;
+}
+
+.home-footer div {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home-subscribe {
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+}
+
+.subscribe-form {
+    display: inline-block;
+}
+
+.home-footer div p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.home-footer div a {
+    margin: auto;
+}
+
+.home-btn {
+    background-color: #1AC6E2;
+    color: #FFFFFF;
+    border: none;
+}
+
+.home-btn:hover,
+.home-btn:focus {
+    background-color: #2AB5D0;
+    color: #FFFFFF;
+}
