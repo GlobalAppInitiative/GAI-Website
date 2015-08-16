@@ -10,14 +10,30 @@
     width: 450px;
     margin: 0 auto;
 }
-.vidbackground {
-    width: 100%; 
-    height: 100%; 
-    position: absolute; 
-    left: 0px; 
-    top: 0px; 
-    z-index: 0;
+
+/* GAI Video */
+
+.video-background {
+    background: url('../img/backgrounds/gai-video.png') no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
+
+.video-background h3,
+.video-background h4 {
+    font-weight: 300;
+}
+
+.fa-play-circle {
+    color: #1AC6E2;
+    margin-top: 10px;
+    vertical-align: -15%;
+    margin-right: 10px;
+}
+
 .stretch {
     width:100%;
     height:100%;
