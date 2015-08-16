@@ -215,7 +215,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .subscribe-form {
-    display: inline-block;
+    display: inline;
+}
+
+#subscribe-input {
+    width: 200px;
 }
 
 .home-footer div p {
@@ -228,9 +232,14 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .home-btn {
-    background-color: #1AC6E2;
+    background-color: #2EC1DE;
     color: #FFFFFF;
     border: none;
+    padding: 8px 12px;
+}
+
+#subscribe-btn {
+    padding: 7px 12px;
 }
 
 .home-btn:hover,
