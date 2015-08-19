@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37aa6e0a-0a76-426e-a94f-422071280557" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/education/designVids.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/education.css" afterPath="$PROJECT_DIR$/css/education.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/education/index.html" afterPath="$PROJECT_DIR$/education/index.html" />
+    <list default="true" id="37aa6e0a-0a76-426e-a94f-422071280557" name="Default" comment="minor changes to education page. added designVids.html.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GAI-Website.iws" />
@@ -26,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/education/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.333334">
+            <state vertical-scroll-proportion="0.95626825">
               <caret line="130" column="7" selection-start-line="130" selection-start-column="7" selection-end-line="130" selection-end-column="7" />
               <folding />
             </state>
@@ -51,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="education.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="education.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/education.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2042253">
+            <state vertical-scroll-proportion="0.0">
               <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
               <folding />
             </state>
@@ -385,7 +382,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440001278884</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="minor changes to education page. added designVids.html.">
+      <created>1440001444377</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1440001444377</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -437,7 +440,8 @@
     <MESSAGE value="updated home page" />
     <MESSAGE value="updated about page" />
     <MESSAGE value="super minor change to education page" />
-    <option name="LAST_COMMIT_MESSAGE" value="super minor change to education page" />
+    <MESSAGE value="minor changes to education page. added designVids.html." />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes to education page. added designVids.html." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -458,10 +462,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/education/index.html">
+    <entry file="file://$PROJECT_DIR$/css/education.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.333334">
-          <caret line="130" column="7" selection-start-line="130" selection-start-column="7" selection-end-line="130" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -479,10 +483,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/education.css">
+    <entry file="file://$PROJECT_DIR$/education/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2042253">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.95626825">
+          <caret line="130" column="7" selection-start-line="130" selection-start-column="7" selection-end-line="130" selection-end-column="7" />
           <folding />
         </state>
       </provider>
