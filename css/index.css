@@ -201,6 +201,8 @@ fieldset[disabled] .btn-xl.active {
 .home-footer {
     background-color: #F2F2F2;
     border-top: 1px solid #CCCCCC;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .home-footer div {
@@ -218,8 +220,18 @@ fieldset[disabled] .btn-xl.active {
     display: inline;
 }
 
+.subscribe-form div {
+    margin: 0;
+    padding: 0;
+}
+
 #subscribe-input {
     width: 200px;
+}
+
+#subscribe-input:focus {
+    box-shadow: none;
+    border: 1px solid #1AC6E2;
 }
 
 .home-footer div p {
@@ -240,6 +252,10 @@ fieldset[disabled] .btn-xl.active {
 
 #subscribe-btn {
     padding: 7px 12px;
+}
+
+#subscribe-btn:focus {
+    outline: 0;
 }
 
 .home-btn:hover,
