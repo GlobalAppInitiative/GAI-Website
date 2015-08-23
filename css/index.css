@@ -83,9 +83,9 @@ header .intro-text .intro-heading {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: black;
+    border-color: #2AB5D0;
     color: #fff;
-    background-color: black;
+    background-color: #2AB5D0;
 }
 
 .btn-xl:active,
@@ -262,4 +262,8 @@ fieldset[disabled] .btn-xl.active {
 .home-btn:focus {
     background-color: #2AB5D0;
     color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+
 }
