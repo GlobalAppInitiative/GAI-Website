@@ -6,6 +6,10 @@
 NAVIGATION - VIDEO SUB-CATEGORIES
 ***********************************************************/
 
+.video-nav-container {
+    margin-bottom: 40px;
+}
+
 .video-nav {
     list-style-type: none;
     float: left;
@@ -36,6 +40,26 @@ NAVIGATION - VIDEO SUB-CATEGORIES
     color: #FFFFFF;
 }
 
+/* VIDEO CONTAINER */
+
+.video-container-inner {
+    border: 1px solid #DDDDDD;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.video {
+    margin-bottom: 20px;
+}
+
+.video-title {
+    font-weight: bold;
+}
+
+.video-person {
+    font-size: 12px;
+    color: #9A9A9A;
+}
 
 /*#android:hover, #android:active {*/
     /*background-color: #59d351;*/
