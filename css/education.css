@@ -62,43 +62,7 @@ NAVIGATION - VIDEO SUB-CATEGORIES
     font-weight: bold;
 }
 
-.video-person {
-    font-size: 12px;
-    color: #9A9A9A;
+.video-description {
+    font-size: 13px;
+    color: #555555;
 }
-
-/*#android:hover, #android:active {*/
-    /*background-color: #59d351;*/
-    /*-webkit-transition: .1s;*/
-    /*-moz-transition: .1s;*/
-    /*-ms-transition: .1s;*/
-    /*-o-transition: .1s;*/
-    /*transition: .1s;*/
-/*}*/
-
-/*#design:hover, #design:active {*/
-    /*background-color: #e59a13;*/
-    /*-webkit-transition: .1s;*/
-    /*-moz-transition: .1s;*/
-    /*-ms-transition: .1s;*/
-    /*-o-transition: .1s;*/
-    /*transition: .1s;*/
-/*}*/
-
-/*#ios:hover, #ios:active {*/
-    /*background-color: #1ac6e2;*/
-    /*-webkit-transition: .1s;*/
-    /*-moz-transition: .1s;*/
-    /*-ms-transition: .1s;*/
-    /*-o-transition: .1s;*/
-    /*transition: .1s;*/
-/*}*/
-
-/*#windows:hover, #windows:active {*/
-    /*background-color: #BA47A9;*/
-    /*-webkit-transition: .1s;*/
-    /*-moz-transition: .1s;*/
-    /*-ms-transition: .1s;*/
-    /*-o-transition: .1s;*/
-    /*transition: .1s;*/
-/*}*/
