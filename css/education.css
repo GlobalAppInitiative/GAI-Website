@@ -48,6 +48,12 @@ NAVIGATION - VIDEO SUB-CATEGORIES
     padding-top: 20px;
 }
 
+@media (max-width: 767px) {
+    .video-container-inner {
+        border: none;
+    }
+}
+
 .video {
     margin-bottom: 20px;
 }
