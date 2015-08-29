@@ -72,6 +72,10 @@
     margin: 0 auto;
 }
 
+.eboard-member {
+    margin-bottom: 20px;
+}
+
 /* HISTORY */
 
 .history-container h2 {
