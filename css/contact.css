@@ -60,7 +60,7 @@ button:focus {
     text-align: center;
     color: #FFFFFF;
     text-shadow: 2px 2px 4px #000;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 @media (min-width: 768px) {
@@ -98,7 +98,7 @@ button:focus {
     border: none;
     padding: 10px;
     width: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .form-btn:hover,
