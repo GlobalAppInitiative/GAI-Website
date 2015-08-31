@@ -128,41 +128,54 @@ fieldset[disabled] .btn-xl.active {
     background-image: none;
 }
 
+
 #home-carousel {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .carousel-inner {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
 }
 
 .carousel-img {
-    /*height: 175px;*/
+    height: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.carousel-caption {
+    text-shadow: none;
+    text-align: left;
+    bottom: -50px;
+    overflow-y: visible;
+    max-width: 400px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
     .carousel-img {
         visibility: hidden;
     }
+    .carousel-caption {
+        margin-bottom: 30px;
+    }
 }
 
-.carousel-caption {
-    text-shadow: none;
-    text-align: left;
-    /*margin-left: 300px;*/
-    bottom: -50px;
-    overflow-y: visible;
-    max-width: 400px;
+@media (max-width: 453px) {
+    .carousel-inner .item {
+        height: 270px;
+    }
 }
 
 .carousel-caption h3 {
     color: #28292E;
+    margin-top: 0;
 }
 
 .carousel-caption p {
-    color: #28292E;
+    color: #555555
 }
 
 .carousel-caption a {
