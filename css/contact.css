@@ -103,8 +103,8 @@ button:focus {
 
 .form-btn:hover,
 .form-btn:focus {
-    background-color: #2AB5D0;
-    color: #FFFFFF;
+    background-color: #2AB5D0 !important;
+    color: #FFFFFF !important;
 }
 
 .contact-paragraph {
