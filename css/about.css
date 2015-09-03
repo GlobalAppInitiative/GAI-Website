@@ -27,6 +27,11 @@
     font-weight: 300;
 }
 
+.video-background h4 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .fa-play-circle {
     color: #1AC6E2;
     margin-top: 10px;
