@@ -154,6 +154,20 @@ fieldset[disabled] .btn-xl.active {
     margin-bottom: 20px;
 }
 
+.carousel-indicators {
+    position: absolute;
+    bottom: -85px;
+}
+
+.carousel-indicators li {
+    border-color: #1AC6E2;
+}
+
+.carousel-indicators .active {
+    background-color: #1AC6E2;
+    border-color: #1AC6E2;
+}
+
 @media (max-width: 767px) {
     .carousel-img {
         visibility: hidden;
