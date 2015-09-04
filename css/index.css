@@ -154,6 +154,14 @@ fieldset[disabled] .btn-xl.active {
     margin-bottom: 20px;
 }
 
+.carousel-control,
+.carousel-control:hover,
+.carousel-control:focus {
+    color: #1AC6E2;
+    text-shadow: none;
+    opacity: 1;
+}
+
 .carousel-indicators {
     position: absolute;
     bottom: -85px;
